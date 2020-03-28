@@ -1,0 +1,25 @@
+#include <iostream>
+ 
+using namespace std;
+ 
+int main()
+{
+    cout << "Por favor insira o seu peso (em kg): ";
+    double peso;
+    cin >> peso;
+ 
+    cout << "Por favor insira a sua altura (em metros): ";
+    double altura;
+    cin >> altura;
+ 
+    double IndiceMassaCorp = peso/ altura * peso);
+ 
+    cout << "O seu IMC é:  " << IndiceMassaCorp<< endl;
+ 
+    if(IndiceMassaCorp < 18.5)
+        cout << "Você está abaixo do peso.\n";
+    else if(IndiceMassaCorp > 25)
+        cout << "Você está acima do peso.\n";
+    else if(IndiceMassaCorp >= 18.5 && IndiceMassaCorp <= 25)
+        cout << "Você está dentro do peso adequado!\n";
+}

@@ -1,3 +1,6 @@
+//codigo feito por Paula Alves
+//Calcula o IMC (Indice de Massa Corporal)
+
 #include <iostream>
  
 using namespace std;
